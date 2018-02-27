@@ -1,0 +1,12 @@
+%{
+  "crontab": {:hex, :crontab, "1.1.2", "4784a50987b4a19af07a908f98e8a308b00f9c93efc5a7892155dc10cd8fc7d9", [:mix], [{:ecto, "~> 1.0 or ~> 2.0 or ~> 2.1", [hex: :ecto, optional: true]}]},
+  "distillery": {:hex, :distillery, "1.5.2", "eec18b2d37b55b0bcb670cf2bcf64228ed38ce8b046bb30a9b636a6f5a4c0080", [:mix], []},
+  "gen_stage": {:hex, :gen_stage, "0.13.1", "edff5bca9cab22c5d03a834062515e6a1aeeb7665fb44eddae086252e39c4378", [:mix], []},
+  "gen_state_machine": {:hex, :gen_state_machine, "2.0.1", "85efd5a0376929c3a4246dd943e17564a2908c7ddd7acd242d84594e785d83f8", [:mix], []},
+  "libcluster": {:hex, :libcluster, "2.3.0", "d2fb8e8b2054a4a0c7faf7ced7c41dd13f7b49cce689590d37ecf30098e1b344", [:mix], [{:poison, "~> 3.0", [hex: :poison, optional: false]}]},
+  "libring": {:hex, :libring, "1.3.1", "b4273e25c6285f03a4b86d068aeee301be18a5aca3f0ca74f0c3a2f8b7d912b1", [:mix], []},
+  "logger_file_backend": {:git, "https://github.com/onkel-dirtus/logger_file_backend.git", "dd2f40d4f68c8d306033412b9cef29bbc676baee", []},
+  "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], []},
+  "quantum": {:hex, :quantum, "2.2.5", "413db5b8cca5f08926dec24582df177771330e7e12984f9c454ec0bec99ca7f4", [:mix], [{:calendar, "~> 0.17", [hex: :calendar, optional: true]}, {:crontab, "~> 1.1", [hex: :crontab, optional: false]}, {:gen_stage, "~> 0.12", [hex: :gen_stage, optional: false]}, {:timex, "~> 3.1", [hex: :timex, optional: true]}]},
+  "swarm": {:hex, :swarm, "3.3.1", "b4d29c49310b92b4a84bd3be6a51d9616eaeda1899b7619201d0908d8d789bd8", [:mix], [{:gen_state_machine, "~> 2.0", [hex: :gen_state_machine, optional: false]}, {:libring, "~> 1.0", [hex: :libring, optional: false]}]},
+}
